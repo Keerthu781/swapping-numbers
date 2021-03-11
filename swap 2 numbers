@@ -1,0 +1,16 @@
+#include<stdio.h>  
+ int main()    
+{    
+int a,b;
+printf("\n\tSWAPPING TWO NUMBERS");
+printf("\n\t____________________");
+printf("\nEnter the value a:");
+scanf("%d",&a);
+printf("\nEnter the value b:"); 
+scanf("%d",&b);  
+a=a+b;  
+b=a-b;   
+a=a-b; 
+printf("\nAfter swap a=%d b=%d",a,b);    
+return 0;  
+}   
